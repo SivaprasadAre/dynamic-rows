@@ -37,7 +37,6 @@ function addRows(r) {
   myCreateFunction(newRowIndex);
 }
 function edit(data) {
-  console.log(data.parentElement.parentElement.childNodes);
   data.parentElement.parentElement.childNodes[1].innerHTML =
     "<input type='text' value=" +
     data.parentElement.parentElement.childNodes[1].innerHTML +
